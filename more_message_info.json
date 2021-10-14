@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": "6085264",
+      "type": "message",
+      "attributes": {
+        "id": 6085264,
+        "delivery_channel": "sms",
+        "seen_at": "2021-10-13T20:58:11.841-04:00"
+      }
+    },
+    {
+      "id": "6085265",
+      "type": "message",
+      "attributes": {
+        "id": 6085265,
+        "delivery_channel": "WhatsApp"
+      }
+    },
+    {
+      "id": "6085267",
+      "type": "message",
+      "attributes": {
+        "id": 6085267,
+        "delivery_channel": "sms",
+        "seen_at": "2021-10-13T20:59:11.841-04:00"
+      }
+    },
+    {
+      "id": "6085270",
+      "type": "message",
+      "attributes": {
+        "id": 6085270,
+        "delivery_channel": "sms"
+      }
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "pages_count": 1,
+    "page": 1
+  },
+  "errors": []
+}

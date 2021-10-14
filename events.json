@@ -156,17 +156,8 @@
       "type": "user",
       "attributes": {
         "id": 725690,
-        "gender": null,
-        "mobile_phone": "+17326102433",
-        "created_at": "2021-10-13T20:55:43.075-04:00",
-        "updated_at": "2021-10-13T20:55:43.075-04:00",
         "initials": "HW",
-        "full_name": "Henry Wang",
-        "first_name": "Henry",
-        "last_name": "Wang",
-        "dob": "1950-01-01",
-        "name": "Henry Wang",
-        "age": 71
+        "name": "Henry Wang"
       },
       "relationships": {}
     },
