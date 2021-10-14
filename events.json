@@ -1,0 +1,301 @@
+{
+  "data": [
+    {
+      "id": "24437356",
+      "type": "event",
+      "attributes": {
+        "action": "phamily:message#sent",
+        "created_at": "2021-10-13T20:56:53.042-04:00"
+      },
+      "relationships": {
+        "object": {
+          "data": {
+            "id": "6085270",
+            "type": "message"
+          }
+        },
+        "actor": {
+          "data": {
+            "id": "725690",
+            "type": "user"
+          }
+        }
+      }
+    },
+    {
+      "id": "24437348",
+      "type": "event",
+      "attributes": {
+        "action": "phamily:message#sent",
+        "created_at": "2021-10-13T20:56:39.420-04:00"
+      },
+      "relationships": {
+        "object": {
+          "data": {
+            "id": "6085267",
+            "type": "message"
+          }
+        },
+        "actor": {
+          "data": {
+            "id": "1",
+            "type": "member"
+          }
+        }
+      }
+    },
+    {
+      "id": "24437344",
+      "type": "event",
+      "attributes": {
+        "action": "phamily:message#sent",
+        "created_at": "2021-10-13T20:56:23.422-04:00"
+      },
+      "relationships": {
+        "object": {
+          "data": {
+            "id": "6085265",
+            "type": "message"
+          }
+        },
+        "actor": {
+          "data": {
+            "id": "725690",
+            "type": "user"
+          }
+        }
+      }
+    },
+    {
+      "id": "24437342",
+      "type": "event",
+      "attributes": {
+        "action": "phamily:message#sent",
+        "created_at": "2021-10-13T20:56:11.955-04:00"
+      },
+      "relationships": {
+        "object": {
+          "data": {
+            "id": "6085264",
+            "type": "message"
+          }
+        },
+        "actor": {
+          "data": {
+            "id": "1",
+            "type": "member"
+          }
+        }
+      }
+    },
+    {
+      "id": "24437415",
+      "type": "event",
+      "attributes": {
+        "action": "phamily:note#serviced",
+        "created_at": "2021-10-13T21:28:11.744-04:00"
+      },
+      "relationships": {
+        "object": {
+          "data": {
+            "id": "2810535",
+            "type": "note"
+          }
+        },
+        "actor": {
+          "data": {
+            "id": "1",
+            "type": "member"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "1",
+      "type": "member",
+      "attributes": {
+        "id": 1,
+        "first_name": "Toufique",
+        "last_name": "Harun",
+        "email": "toufique@jaanhealth.com",
+        "name": "Toufique Harun",
+        "initials": "TH",
+        "last_sign_in_at": "2021-10-08T01:46:38.756-04:00",
+        "created_at": "2015-05-22T20:47:08.000-04:00"
+      },
+      "relationships": {}
+    },
+    {
+      "id": "3651423",
+      "type": "conversation",
+      "attributes": {
+        "subject": "First message",
+        "created_at": "2021-10-13T20:56:11.841-04:00"
+      },
+      "relationships": {
+        "owner": {
+          "data": {
+            "id": "1",
+            "type": "member"
+          }
+        },
+        "members": {
+          "data": [
+            {
+              "id": "1",
+              "type": "member"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "725690",
+      "type": "user",
+      "attributes": {
+        "id": 725690,
+        "gender": null,
+        "mobile_phone": "+17326102433",
+        "created_at": "2021-10-13T20:55:43.075-04:00",
+        "updated_at": "2021-10-13T20:55:43.075-04:00",
+        "initials": "HW",
+        "full_name": "Henry Wang",
+        "first_name": "Henry",
+        "last_name": "Wang",
+        "dob": "1950-01-01",
+        "name": "Henry Wang",
+        "age": 71
+      },
+      "relationships": {}
+    },
+    {
+      "id": "6085270",
+      "type": "message",
+      "attributes": {
+        "id": 6085270,
+        "body": "Fourth message",
+        "created_at": "2021-10-13T20:56:53.011-04:00",
+        "deliver_at": "2021-10-13T20:56:53.009-04:00"
+      },
+      "relationships": {
+        "sender": {
+          "data": {
+            "id": "725690",
+            "type": "user"
+          }
+        },
+        "conversation": {
+          "data": {
+            "id": "3651423",
+            "type": "conversation"
+          }
+        }
+      }
+    },
+    {
+      "id": "6085267",
+      "type": "message",
+      "attributes": {
+        "id": 6085267,
+        "body": "Third message",
+        "created_at": "2021-10-13T20:56:39.398-04:00",
+        "deliver_at": "2021-10-13T20:56:39.397-04:00"
+      },
+      "relationships": {
+        "sender": {
+          "data": {
+            "id": "1",
+            "type": "member"
+          }
+        },
+        "conversation": {
+          "data": {
+            "id": "3651423",
+            "type": "conversation"
+          }
+        }
+      }
+    },
+    {
+      "id": "6085265",
+      "type": "message",
+      "attributes": {
+        "id": 6085265,
+        "body": "Second message",
+        "created_at": "2021-10-13T20:56:23.392-04:00",
+        "deliver_at": "2021-10-13T20:56:23.390-04:00"
+      },
+      "relationships": {
+        "sender": {
+          "data": {
+            "id": "725690",
+            "type": "user"
+          }
+        },
+        "conversation": {
+          "data": {
+            "id": "3651423",
+            "type": "conversation"
+          }
+        }
+      }
+    },
+    {
+      "id": "6085264",
+      "type": "message",
+      "attributes": {
+        "id": 6085264,
+        "body": "First message",
+        "created_at": "2021-10-13T20:56:11.933-04:00",
+        "deliver_at": "2021-10-13T20:56:11.839-04:00"
+      },
+      "relationships": {
+        "sender": {
+          "data": {
+            "id": "1",
+            "type": "member"
+          }
+        },
+        "conversation": {
+          "data": {
+            "id": "3651423",
+            "type": "conversation"
+          }
+        }
+      }
+    },
+    {
+      "id": "2810535",
+      "type": "note",
+      "attributes": {
+        "id": 2810535,
+        "created_at": "2021-10-13T21:28:11.727-04:00",
+        "body": "first note"
+      },
+      "relationships": {
+        "patient": {
+          "data": {
+            "id": "725690",
+            "type": "user"
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "pages_count": 1,
+    "page": 1
+  },
+  "errors": []
+}
+
+
+
+
+
+
+
+
